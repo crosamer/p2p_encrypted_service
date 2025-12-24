@@ -12,16 +12,16 @@ Proyek ini berfokus pada **konsep Sistem Terdistribusi dan Keamanan & Kriptograf
 
 ## ✨ Fitur Utama
 
-- 🔒 **End-to-End Encryption (E2EE)**
-- 🤝 **Arsitektur Pure Peer-to-Peer**
-- ⚡ **Realtime Chat (WebSocket)**
-- 👥 **Multi-peer / Group Chat**
-- 🧩 **Manual Input IP & Port**
-- 🛡 **Identity Fingerprint Verification (Anti-MITM)**
-- 🔑 **Authenticated Encryption (AES-GCM)**
-- 🔁 **Fault Tolerance (Reconnect Otomatis)**
-- 💬 **UI Website Chatting Modern**
-- 🖥 **Mendukung Localhost & LAN**
+- **End-to-End Encryption (E2EE)**
+- **Arsitektur Pure Peer-to-Peer**
+- **Realtime Chat (WebSocket)**
+- **Multi-peer / Group Chat**
+- **Manual Input IP & Port**
+- **Identity Fingerprint Verification (Anti-MITM)**
+- **Authenticated Encryption (AES-GCM)**
+- **Fault Tolerance (Reconnect Otomatis)**
+- **UI Website Chatting Modern**
+- **Mendukung Localhost & LAN**
 
 ---
 
@@ -88,8 +88,8 @@ Sistem ini menggunakan **arsitektur P2P murni**, tanpa server pusat:
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/username/p2p-encrypted-chat.git
-cd p2p-encrypted-chat
+git clone https://github.com/crosamer/p2p_encrypted_service.git
+cd p2p_encrypted_service
 ```
 
 ### 2️⃣ Install dependencies
