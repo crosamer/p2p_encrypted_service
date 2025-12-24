@@ -6,9 +6,7 @@
 # 🔐 Pure P2P Encrypted Messaging Service
 
 Sebuah **aplikasi chatting terenkripsi end-to-end berbasis Peer-to-Peer (P2P)** yang dibuat menggunakan **Python, Flask, dan WebSocket**.  
-Proyek ini berfokus pada **konsep Sistem Terdistribusi dan Keamanan & Kriptografi**, tanpa menggunakan server pusat untuk penyimpanan pesan.
-
-Setiap peer berperan sebagai **client dan server secara bersamaan**.
+Proyek ini berfokus pada **konsep Sistem Terdistribusi dan Keamanan & Kriptografi**, tanpa menggunakan server pusat untuk penyimpanan pesan. Setiap peer berperan sebagai **client dan server secara bersamaan**.
 
 ---
 
@@ -36,8 +34,6 @@ Sistem ini menggunakan **arsitektur P2P murni**, tanpa server pusat:
   - Socket Listener (P2P Connection)
 - Pertukaran pesan dilakukan **langsung antar peer**
 - Tidak ada penyimpanan pesan di server pusat
-
-
 
 
 ---
@@ -88,14 +84,20 @@ Sistem ini menggunakan **arsitektur P2P murni**, tanpa server pusat:
 
 ---
 
-## 🚀 Instalasi
+## 🚀 Menggunakan Program
 
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/username/p2p-encrypted-chat.git
 cd p2p-encrypted-chat
+```
 
+### 2️⃣ Install dependencies
+```bash
 pip install flask flask-socketio cryptography
+```
 
-
+## 3️⃣ Jalankan script
+```bash
 python peer.py
+```
