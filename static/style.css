@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: #0f172a;
+    color: #e5e7eb;
+    display: flex;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+    width: 280px;
+    background: #020617;
+    padding: 20px;
+    border-right: 1px solid #1e293b;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sidebar input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: #1e293b;
+    color: white;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background: #1d4ed8;
+}
+
+/* ================= CHAT ================= */
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 15px;
+    background: #020617;
+    border-bottom: 1px solid #1e293b;
+}
+
+.chat-header h3 {
+    margin: 0;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background: #0f172a;
+}
+
+/* ================= MESSAGE ================= */
+.message {
+    margin-bottom: 12px;
+    max-width: 70%;
+    padding: 10px 14px;
+    border-radius: 12px;
+    word-wrap: break-word;
+}
+
+.message.you {
+    background: #2563eb;
+    margin-left: auto;
+}
+
+.message.peer {
+    background: #1e293b;
+}
+
+.message.system {
+    background: transparent;
+    color: #94a3b8;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* ================= INPUT ================= */
+.chat-input {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #1e293b;
+    background: #020617;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #1e293b;
+    color: white;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #22c55e;
+    color: black;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background: #16a34a;
+}
